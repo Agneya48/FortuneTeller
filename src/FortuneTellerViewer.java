@@ -11,12 +11,5 @@ public class FortuneTellerViewer {
         FortuneTellerFrame appFrame = new FortuneTellerFrame(dim.width * 3/4, dim.height * 7/8, "Fortune Teller");
 
         appFrame.giveFortune();
-
-        /*Note on Lab: Would have  used JTextPanel for more easily formattable display text, but decided to stay
-        on the safe side since lab explicitly called for JTextArea. Also, seems like BorderArea doesn't automatically
-        calculate new sub-frame sizes when the window resizes, without implementing some sort of component
-        listener. Overall, Java is definitely showing why it's primarily a back-end language these days;
-        the Swing GUI is a bit of a pain compared to some other alternatives.
-         */
     }
 }
